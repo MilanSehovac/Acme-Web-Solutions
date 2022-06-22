@@ -1,3 +1,4 @@
+/* globalni stilovi */
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -78,7 +79,7 @@ body {
     padding: 17.6px 0px;
   }
   
-    
+  /* sekcija a */
   #section-a {
     background: #eaeaea;
     padding: 0 1.5em;
@@ -91,26 +92,25 @@ body {
     font-size: 17.6px;
   }
  
-  
+  /* sekcija b */
   #section-b {
     padding: 2em 1em 1em;  
   }
-  
- 
+ /* sekcija c */
   #section-b .content {
     margin-bottom: 1em;
     background: #fff;
     color: #333;
     padding: 1.5em;
+
   }
-    
-  
+
   #section-c {
     background: #fff;
     color: #333;
     padding: 2em;
   }
-  
+  /* sekcija d */
   #section-d .box {
     padding: 2em;
     color: #fff;
@@ -119,9 +119,7 @@ body {
   #section-d .box:first-child {
     background: #2690d4;
   }
-  
-  
-  
+  /* footer */
   footer {
     padding: 2em;
     background: #000;
@@ -130,8 +128,14 @@ body {
   
   footer a {
     color: #2690d4;
+    line-height: 1.55;
+
   }
-  
+  footer p{
+    line-height: 1.55;
+
+  }
+  /* Media Query */
   @media (min-width: 700px) {
     #section-a .paragraph {
       columns: 2;
@@ -148,8 +152,9 @@ body {
     }
     #section-d h2{
         height:92.40px ;
+       line-height: 1.4;
+
     }
-  
     .container{
      max-width: 880px;
      
@@ -161,6 +166,9 @@ body {
   
     #section-d .container{
       max-width: fit-content;
+    }
+    #section-d .box p{
+    line-height: 1.49;
     }
     footer .container{
       max-width: initial;
