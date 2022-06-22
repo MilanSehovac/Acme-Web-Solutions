@@ -17,25 +17,22 @@ body {
   h3 {
     margin: 0;
     padding: 1em 0;
+    line-height: 1.5;
   }
   h1{
-    line-height: 1.5;
     font-size: 2em;
     
   }
   h2{
     font-size: 1.5em;
-    line-height: 1.5;
   }
   
   h3{
     font-size: 1.17em;
-    line-height: 1.5;
   }
   p {
     margin: 0;
     padding: 1em 0;
-    line-height: 1.5;
   }
   
   .btn {
@@ -96,19 +93,24 @@ body {
   #section-b {
     padding: 2em 1em 1em;  
   }
- /* sekcija c */
+  
+
+ 
   #section-b .content {
     margin-bottom: 1em;
     background: #fff;
     color: #333;
     padding: 1.5em;
+    
   }
 
+  /* sekcija c */
   #section-c {
     background: #fff;
     color: #333;
     padding: 2em;
   }
+  
   /* sekcija d */
   #section-d .box {
     padding: 2em;
@@ -127,15 +129,19 @@ body {
   
   footer a {
     color: #2690d4;
-    line-height: 1.55;
-
+    
   }
-  footer p{
+  footer p,
+  footer a{
     line-height: 1.55;
 
   }
   /* Media Query */
   @media (min-width: 700px) {
+    .container{
+      max-width: 880px;
+      
+     }
     #section-a .paragraph {
       columns: 2;
       column-gap: 0.7em;
@@ -145,24 +151,22 @@ body {
       padding-top: 0;
       line-height: 1.5;
     }
+    
 
     .content h3{
         height: 72.05px;
     }
-    #section-d h2{
-        height:92.40px ;
-       line-height: 1.4;
-
-    }
-    .container{
-     max-width: 880px;
-     
-    }
+   
+    
     #section-b .col-md{
       padding-left: 10px;
       padding-right:10px;
     }
-  
+    #section-d h2{
+      height:92.40px ;
+     line-height: 1.4;
+
+  }
     #section-d .container{
       max-width: fit-content;
     }
